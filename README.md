@@ -67,12 +67,12 @@ blog-platform/
 
 ## 🏠 Home Page
 
-(index.jpg.png)
+![index](index.jpg.png)
 
 ## 🔐 Login Page
 
-(login.jpg.png)
+![login](login.jpg.png)
 
 ## 📝 Create Post
 
-(dashboard.jpg.png)
+![dashboard](dashboard.jpg.png)
