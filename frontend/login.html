@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Login</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="auth-page">
+
+<div class="overlay"></div>
+
+<div class="login-box">
+
+    <h1>Login</h1>
+
+    <div class="input-group">
+
+        <label>Email</label>
+
+        <input
+        type="email"
+        id="loginEmail">
+
+    </div>
+
+    <div class="input-group">
+
+        <label>Password</label>
+
+        <input
+        type="password"
+        id="loginPassword">
+
+    </div>
+
+    <div class="options">
+
+        <div>
+            <input type="checkbox">
+            Remember Me
+        </div>
+
+        <a href="#">
+        Forget Password
+        </a>
+
+    </div>
+
+    <button onclick="login()">
+    Log in
+    </button>
+
+    <p class="bottom-text">
+
+        Don't have an account?
+
+        <a href="register.html">
+        Register
+        </a>
+
+    </p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
